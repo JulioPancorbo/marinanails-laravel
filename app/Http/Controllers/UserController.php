@@ -16,6 +16,14 @@ class UserController extends Controller
         ]);
     }
 
+    public function testing()
+    {
+        return response()->json([
+            'name' => 'Marina',
+            'surname' => 'Nails',
+        ]);
+    }
+
     /**
      * Store a newly created resource in storage.
      */
